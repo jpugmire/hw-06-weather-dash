@@ -115,8 +115,8 @@ function renderData(cityName, data) {
 }
 
 function renderForecast(data) {
+    const renderDate = new Date(sysDate.valueOf());
     for(i = 1; i < 6; i++){
-        var renderDate = sysDate;
         renderDate.setDate(renderDate.getDate() + 1);
         var forecastElement = $('.forecast-item.' + i)[0];
         forecastElement.innerHTML = '';
