@@ -47,17 +47,33 @@
     color: #ffffff;
 }
 
+.uv-index{
+    display: flex;
+}
+
 .uv-mild{
     background-color: #264e2f;
     color: #ffffff;
+    padding: 0.5rem;
+    margin-top:0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #a8a8a8;
 }
 
 .uv-moderate{
     background-color: #ebc443;
     color: #ffffff;
+    padding: 0.5rem;
+    margin-top:0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #a8a8a8;
 }
 
 .uv-severe{
     background-color: #ff1e0e;
     color: #ffffff;
+    padding: 0.5rem;
+    margin-top:0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #a8a8a8;
 }
