@@ -32,4 +32,12 @@ body {
         width: 95%;
         margin: 0 0 1rem 0;
     }
+    .forecast-item{
+        height: 15rem;
+        width: 12rem;
+        font-size:x-large;
+    }
+    .forecast-detail{
+        font-size:large;
+    }
 }
