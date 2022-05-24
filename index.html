@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Weather Dashboard</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="weather-header">
+            <h1>Weather Dashboard</h1>
+        </header>
+        <div class="content" style="display: flex;">
+            <div class="search-pane" style="flex-grow:1">
+                <div class="search-item search-header"><h2>Search For a City:</h2></div>
+                <input type="text" class="search-item search-bar" placeholder="San Diego"/>
+                <div class="search-item submit-btn">Search</div>
+                <div class="search-item divider"></div>
+                <div class="search-history-wrapper">
+                </div>
+            </div>
+            <div class="dashboard-pane" style="flex-grow:4">
+                <div class="selected-city">
+                    <div class="city-name"><h1>City Name</h1></div>
+                    <div class="temperature">Temperature</div>
+                    <div class="wind">Wind</div>
+                    <div class="humidity">Humidity</div>
+                    <div class="uv-index">UV Index</div>
+                </div>
+                <div class="forecast-section">
+                    <h3>5-Day Forecast</h3>
+                    <div class="forecast-wrapper">
+                        <div class="forecast-item 1">
+                            <div class="forecast-header">Date</div>
+                            <div class="forecast-detail">WthrIcon</div>
+                            <div class="forecast-detail">Temperature</div>
+                            <div class="forecast-detail">Wind</div>
+                            <div class="forecast-detail">Humidity</div>
+                        </div>
+                        <div class="forecast-item 2">
+                            <div class="forecast-header">Date</div>
+                            <div class="forecast-detail">WthrIcon</div>
+                            <div class="forecast-detail">Temperature</div>
+                            <div class="forecast-detail">Wind</div>
+                            <div class="forecast-detail">Humidity</div>
+                        </div>
+                        <div class="forecast-item 3">
+                            <div class="forecast-header">Date</div>
+                            <div class="forecast-detail">WthrIcon</div>
+                            <div class="forecast-detail">Temperature</div>
+                            <div class="forecast-detail">Wind</div>
+                            <div class="forecast-detail">Humidity</div>
+                        </div>
+                        <div class="forecast-item 4">
+                            <div class="forecast-header">Date</div>
+                            <div class="forecast-detail">WthrIcon</div>
+                            <div class="forecast-detail">Temperature</div>
+                            <div class="forecast-detail">Wind</div>
+                            <div class="forecast-detail">Humidity</div>
+                        </div>
+                        <div class="forecast-item 5">
+                            <div class="forecast-header">Date</div>
+                            <div class="forecast-detail">WthrIcon</div>
+                            <div class="forecast-detail">Temperature</div>
+                            <div class="forecast-detail">Wind</div>
+                            <div class="forecast-detail">Humidity</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>

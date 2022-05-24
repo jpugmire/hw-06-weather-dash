@@ -1,0 +1,61 @@
+.dashboard-pane {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0.2rem 0.2rem 10px #636363;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.selected-city {
+    background-color: white;
+    padding: 0 1rem 1rem 1rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.forecast-section{
+    padding: 0 1rem 1rem 1rem;
+    background-color: white;
+}
+
+.forecast-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-item{
+    height: 9rem;
+    width: 8rem;
+    background-color: #313e61;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    margin: 1rem 0rem;
+}
+
+.forecast-header{
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.forecast-detail{
+    font-size: small;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.uv-mild{
+    background-color: #264e2f;
+    color: #ffffff;
+}
+
+.uv-moderate{
+    background-color: #ebc443;
+    color: #ffffff;
+}
+
+.uv-severe{
+    background-color: #ff1e0e;
+    color: #ffffff;
+}

@@ -1,0 +1,35 @@
+/* import search bar style */
+@import './search-bar.css';
+@import './dashboard.css';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.weather-header {
+    text-align: center;
+    background-color: #3b70e0;
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.weather-header h1{
+    margin: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-pane{
+        width: 95%;
+        margin: 0 0 1rem 0;
+    }
+    .dashboard-pane{
+        width: 95%;
+        margin: 0 0 1rem 0;
+    }
+}
