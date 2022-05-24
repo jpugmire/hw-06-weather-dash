@@ -47,6 +47,11 @@
     color: #ffffff;
 }
 
+.temperature {
+    display: flex;
+    align-items: center;
+}
+
 .uv-index{
     display: flex;
 }

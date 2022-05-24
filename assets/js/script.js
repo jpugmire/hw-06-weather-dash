@@ -98,7 +98,7 @@ function renderSearchHistory() {
 function renderData(cityName, data) {
     $('.dashboard-pane').show();
     $('.city-name')[0].innerHTML = '<h1>' + cityName + ' ' + sysDate.toDateString() + '</h1>';
-    $('.temperature')[0].innerHTML = 'Temperature: ' + data.current.temp + ' °F';
+    $('.temperature')[0].innerHTML = 'Temperature: <h2>' + data.current.temp + ' °F</h2>';
     $('.wind')[0].innerHTML = 'Wind: ' + data.current.wind_speed + ' mph'
     $('.humidity')[0].innerHTML = 'Humidity: ' + data.current.humidity;
     //uv stuff
