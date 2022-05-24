@@ -8,4 +8,4 @@ Also includes a search history.
 ### Screenshot
 ![alt test](./screenshot.png)
 
-## [Deployed Link](https://jpugmire.github.io/hw-05-planner/)
+## [Deployed Link](https://jpugmire.github.io/hw-06-weather-dash/)
